@@ -1,9 +1,11 @@
+![Default Effect](http://i.imgur.com/eYtEywC.png "Dummy Parameter UI")
+
+
+
 # Usage
 
 
-Copy **FFGLDummyParams.dll** into **(Resolume dir)/plugins/vfx** folder
-
-By default this effect has 16 parameters named "Param1", "Param 2" etc
+Copy **FFGLDummyParams.dll** into **(Resolume dir)/plugins/vfx** folder to use default effect settings as shown above
 
 
 # Customising parameter names
