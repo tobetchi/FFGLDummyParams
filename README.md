@@ -1,4 +1,4 @@
-![Default Effect](http://i.imgur.com/eYtEywC.png "Dummy Parameter UI")
+<img src="https://raw.githubusercontent.com/tobetchi/FFGLDummyParams/images/screenshot.png" alt="Dummy Parameter UI" width="379">
 
 # Usage
 
