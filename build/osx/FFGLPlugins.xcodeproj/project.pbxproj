@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		602BD75D206747E100D035F9 /* FFGL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6DB1A2A1B9054A9007E6883 /* FFGL.cpp */; };
+		602BD75E206747E100D035F9 /* FFGLPluginInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6DB1A311B9054A9007E6883 /* FFGLPluginInfo.cpp */; };
+		602BD75F206747E100D035F9 /* FFGLPluginInfoData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6DB1A331B9054A9007E6883 /* FFGLPluginInfoData.cpp */; };
+		602BD760206747E100D035F9 /* FFGLPluginManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6DB1A341B9054A9007E6883 /* FFGLPluginManager.cpp */; };
+		602BD761206747E100D035F9 /* FFGLPluginSDK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6DB1A371B9054A9007E6883 /* FFGLPluginSDK.cpp */; };
+		602BD762206747E100D035F9 /* FFGLShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6DB1A391B9054A9007E6883 /* FFGLShader.cpp */; };
+		602BD764206747E100D035F9 /* FFGLFBO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6DB1A691B906185007E6883 /* FFGLFBO.cpp */; };
+		602BD76B20674A7300D035F9 /* DummyParams.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 602BD759206747AF00D035F9 /* DummyParams.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		602BD758206747AF00D035F9 /* DummyParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DummyParams.h; sourceTree = "<group>"; };
+		602BD759206747AF00D035F9 /* DummyParams.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DummyParams.cpp; sourceTree = "<group>"; };
+		602BD769206747E100D035F9 /* DummyParams.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DummyParams.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		D69416971B9041FA00D30319 /* FFGLPlugin-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FFGLPlugin-Info.plist"; sourceTree = "<group>"; };
+		D694169A1B90421F00D30319 /* FFGL_Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = FFGL_Debug.xcconfig; sourceTree = "<group>"; };
+		D694169B1B90421F00D30319 /* FFGL_Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = FFGL_Release.xcconfig; sourceTree = "<group>"; };
+		D694169C1B90421F00D30319 /* FFGL.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = FFGL.xcconfig; sourceTree = "<group>"; };
+		D6DB1A2A1B9054A9007E6883 /* FFGL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FFGL.cpp; sourceTree = "<group>"; };
+		D6DB1A2B1B9054A9007E6883 /* FFGL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFGL.h; sourceTree = "<group>"; };
+		D6DB1A301B9054A9007E6883 /* FFGLLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFGLLib.h; sourceTree = "<group>"; };
+		D6DB1A311B9054A9007E6883 /* FFGLPluginInfo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FFGLPluginInfo.cpp; sourceTree = "<group>"; };
+		D6DB1A321B9054A9007E6883 /* FFGLPluginInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFGLPluginInfo.h; sourceTree = "<group>"; };
+		D6DB1A331B9054A9007E6883 /* FFGLPluginInfoData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FFGLPluginInfoData.cpp; sourceTree = "<group>"; };
+		D6DB1A341B9054A9007E6883 /* FFGLPluginManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FFGLPluginManager.cpp; sourceTree = "<group>"; };
+		D6DB1A351B9054A9007E6883 /* FFGLPluginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFGLPluginManager.h; sourceTree = "<group>"; };
+		D6DB1A361B9054A9007E6883 /* FFGLPluginManager_inl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFGLPluginManager_inl.h; sourceTree = "<group>"; };
+		D6DB1A371B9054A9007E6883 /* FFGLPluginSDK.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FFGLPluginSDK.cpp; sourceTree = "<group>"; };
+		D6DB1A381B9054A9007E6883 /* FFGLPluginSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFGLPluginSDK.h; sourceTree = "<group>"; };
+		D6DB1A391B9054A9007E6883 /* FFGLShader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FFGLShader.cpp; sourceTree = "<group>"; };
+		D6DB1A3A1B9054A9007E6883 /* FFGLShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFGLShader.h; sourceTree = "<group>"; };
+		D6DB1A3B1B9054A9007E6883 /* FreeFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreeFrame.h; sourceTree = "<group>"; };
+		D6DB1A3D1B9054A9007E6883 /* utilities.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = utilities.cpp; sourceTree = "<group>"; };
+		D6DB1A3E1B9054A9007E6883 /* utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utilities.h; sourceTree = "<group>"; };
+		D6DB1A691B906185007E6883 /* FFGLFBO.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FFGLFBO.cpp; sourceTree = "<group>"; };
+		D6DB1A6A1B906185007E6883 /* FFGLFBO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFGLFBO.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		602BD765206747E100D035F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DA285910AEE5D640030A4DD = {
+			isa = PBXGroup;
+			children = (
+				D69416991B90420600D30319 /* xcconfig */,
+				D69416971B9041FA00D30319 /* FFGLPlugin-Info.plist */,
+				602BD7572067476A00D035F9 /* DummyParams */,
+				2FD12214188538AC0009EBA8 /* source */,
+				2DA285A10AEE5E480030A4DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2DA285A10AEE5E480030A4DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				602BD769206747E100D035F9 /* DummyParams.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FD12214188538AC0009EBA8 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				D6DB1A481B9054CD007E6883 /* lib */,
+			);
+			name = source;
+			sourceTree = "<group>";
+		};
+		602BD7572067476A00D035F9 /* DummyParams */ = {
+			isa = PBXGroup;
+			children = (
+				602BD759206747AF00D035F9 /* DummyParams.cpp */,
+				602BD758206747AF00D035F9 /* DummyParams.h */,
+			);
+			name = DummyParams;
+			path = ../../source/plugins/DummyParams;
+			sourceTree = "<group>";
+		};
+		D69416991B90420600D30319 /* xcconfig */ = {
+			isa = PBXGroup;
+			children = (
+				D694169A1B90421F00D30319 /* FFGL_Debug.xcconfig */,
+				D694169B1B90421F00D30319 /* FFGL_Release.xcconfig */,
+				D694169C1B90421F00D30319 /* FFGL.xcconfig */,
+			);
+			name = xcconfig;
+			sourceTree = "<group>";
+		};
+		D6DB1A291B9054A9007E6883 /* ffgl */ = {
+			isa = PBXGroup;
+			children = (
+				D6DB1A691B906185007E6883 /* FFGLFBO.cpp */,
+				D6DB1A6A1B906185007E6883 /* FFGLFBO.h */,
+				D6DB1A2A1B9054A9007E6883 /* FFGL.cpp */,
+				D6DB1A2B1B9054A9007E6883 /* FFGL.h */,
+				D6DB1A301B9054A9007E6883 /* FFGLLib.h */,
+				D6DB1A311B9054A9007E6883 /* FFGLPluginInfo.cpp */,
+				D6DB1A321B9054A9007E6883 /* FFGLPluginInfo.h */,
+				D6DB1A331B9054A9007E6883 /* FFGLPluginInfoData.cpp */,
+				D6DB1A341B9054A9007E6883 /* FFGLPluginManager.cpp */,
+				D6DB1A351B9054A9007E6883 /* FFGLPluginManager.h */,
+				D6DB1A361B9054A9007E6883 /* FFGLPluginManager_inl.h */,
+				D6DB1A371B9054A9007E6883 /* FFGLPluginSDK.cpp */,
+				D6DB1A381B9054A9007E6883 /* FFGLPluginSDK.h */,
+				D6DB1A391B9054A9007E6883 /* FFGLShader.cpp */,
+				D6DB1A3A1B9054A9007E6883 /* FFGLShader.h */,
+				D6DB1A3B1B9054A9007E6883 /* FreeFrame.h */,
+				D6DB1A3C1B9054A9007E6883 /* utilities */,
+			);
+			name = ffgl;
+			path = ../../source/lib/ffgl;
+			sourceTree = "<group>";
+		};
+		D6DB1A3C1B9054A9007E6883 /* utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D6DB1A3D1B9054A9007E6883 /* utilities.cpp */,
+				D6DB1A3E1B9054A9007E6883 /* utilities.h */,
+			);
+			path = utilities;
+			sourceTree = "<group>";
+		};
+		D6DB1A481B9054CD007E6883 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				D6DB1A291B9054A9007E6883 /* ffgl */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		602BD75A206747E100D035F9 /* DummyParams */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 602BD766206747E100D035F9 /* Build configuration list for PBXNativeTarget "DummyParams" */;
+			buildPhases = (
+				602BD75B206747E100D035F9 /* Resources */,
+				602BD75C206747E100D035F9 /* Sources */,
+				602BD765206747E100D035F9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DummyParams;
+			productName = FFGLBrightness;
+			productReference = 602BD769206747E100D035F9 /* DummyParams.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DA285930AEE5D640030A4DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 2DA285940AEE5D640030A4DD /* Build configuration list for PBXProject "FFGLPlugins" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 2DA285910AEE5D640030A4DD;
+			productRefGroup = 2DA285A10AEE5E480030A4DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				602BD75A206747E100D035F9 /* DummyParams */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		602BD75B206747E100D035F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		602BD75C206747E100D035F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				602BD76B20674A7300D035F9 /* DummyParams.cpp in Sources */,
+				602BD75D206747E100D035F9 /* FFGL.cpp in Sources */,
+				602BD75E206747E100D035F9 /* FFGLPluginInfo.cpp in Sources */,
+				602BD75F206747E100D035F9 /* FFGLPluginInfoData.cpp in Sources */,
+				602BD760206747E100D035F9 /* FFGLPluginManager.cpp in Sources */,
+				602BD761206747E100D035F9 /* FFGLPluginSDK.cpp in Sources */,
+				602BD762206747E100D035F9 /* FFGLShader.cpp in Sources */,
+				602BD764206747E100D035F9 /* FFGLFBO.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2DA285950AEE5D640030A4DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D694169A1B90421F00D30319 /* FFGL_Debug.xcconfig */;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
+				CONFIGURATION_BUILD_DIR = ../../binaries/debug;
+				COPY_PHASE_STRIP = NO;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		2DA285960AEE5D640030A4DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D694169B1B90421F00D30319 /* FFGL_Release.xcconfig */;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
+				CONFIGURATION_BUILD_DIR = ../../binaries/release;
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				STRIP_STYLE = debugging;
+			};
+			name = Release;
+		};
+		602BD767206747E100D035F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "FFGLPlugin-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				PREBINDING = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		602BD768206747E100D035F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "FFGLPlugin-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				PREBINDING = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DA285940AEE5D640030A4DD /* Build configuration list for PBXProject "FFGLPlugins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DA285950AEE5D640030A4DD /* Debug */,
+				2DA285960AEE5D640030A4DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		602BD766206747E100D035F9 /* Build configuration list for PBXNativeTarget "DummyParams" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				602BD767206747E100D035F9 /* Debug */,
+				602BD768206747E100D035F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DA285930AEE5D640030A4DD /* Project object */;
+}

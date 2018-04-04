@@ -1,0 +1,3 @@
+[submodule "source/lib/ffgl"]
+	path = source/lib/ffgl
+	url = https://github.com/tobetchi/resolume-ffgl.git

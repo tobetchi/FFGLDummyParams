@@ -1,21 +1,8 @@
-example-pulse/
+/binaries/
+/build/osx/build/
 
-*.depend
-*.layout
-*.mode*v3
-*.pbxuser
-*.app*
-*.DS_*
-*.xcworkspacedata
+build/osx/FFGLPlugins\.xcodeproj/xcuserdata/
+build/osx/FFGLPlugins\.xcodeproj/project\.xcworkspace/xcuserdata/
 
-*.opensdf
-*.sdf
-*.suo
-*.ipch
-
-.svn/
-obj/
-ipch/
-bin/
-build/
-!data/
+Debug
+Release
