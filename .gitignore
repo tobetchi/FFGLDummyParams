@@ -1,8 +1,0 @@
-/binaries/
-/build/osx/build/
-
-build/osx/FFGLPlugins\.xcodeproj/xcuserdata/
-build/osx/FFGLPlugins\.xcodeproj/project\.xcworkspace/xcuserdata/
-
-Debug
-Release
